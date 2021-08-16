@@ -51,6 +51,13 @@ pdfAppend () {
 	fi
 }
 
+alias mine="launchMinecraft"
+
+launchMinecraft() {
+cd ~/Games/Minecraft/minecraft-launcher/
+./minecraft-launcher
+}
+
 alias pdfa="pdfAppend"
 
 alias nfta="newFromTemplateAdd"
